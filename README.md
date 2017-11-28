@@ -30,6 +30,15 @@ mGuide.setOnClickListener(new HighlightGuideInterface.OnClickListener() {
 mGuide.show(MainActivity.this);
 ```
 
+ --- | ---
+isInterceptClick | is to intercept click event or not
+isClickDismiss | is to click to dismiss or not
+setEnableNext | is to enable next mode or not
+setBgColorResId | set background color
+addItem | add item
+next | change to next anchor view
+show | show the view
+hide | hide the view
 
 License
 =======
