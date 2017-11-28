@@ -10,6 +10,63 @@ HighlightGuide is an Android library used to guide user how to do the next step.
 - Custom decor view
 - All and Next mode
 
+## Import
+
+### Gradle
+
+1. Define the jitpack remote Maven repository inside the repositories block of your root `build.gradle` file
+
+    ```javascript
+    allprojects {
+        repositories {
+            ...
+            maven { url "https://jitpack.io" }
+        }
+    }
+    ```
+
+2. Add the Spotlight dependency
+
+    ```javascript
+    dependencies {
+        ...
+        compile 'com.github.Coder-DanielHan:HighlightGuide:v1.0.1'
+    }
+    ```
+
+### Maven
+
+1. Define the jitpack remote Maven repository in your `pom.xml` at the end of repositories
+
+    ```xml
+    <repositories>
+        ...
+        <repository>
+            <id>jitpack.io</id>
+            <url>https://jitpack.io</url>
+        </repository>
+    </repositories>
+    ```
+
+2. Add the Spotlight dependency
+
+    ```xml
+    <dependency>
+        <groupId>com.github.Coder-DanielHan</groupId>
+        <artifactId>HighlightGuide</artifactId>
+        <version>v1.0.1</version>
+    </dependency>
+    ```
+
+Maven
+
+    <dependency>
+        <groupId>it.chengdazhi.styleimageview</groupId>
+        <artifactId>styleimageview</artifactId>
+        <version>1.0.4</version>
+        <type>pom</type>
+    </dependency>
+
 ## Usage
 ```java
 mGuide = new GuideBuilder(MainActivity.this)
