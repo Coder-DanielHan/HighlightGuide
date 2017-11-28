@@ -58,15 +58,6 @@ HighlightGuide is an Android library used to guide user how to do the next step.
     </dependency>
     ```
 
-Maven
-
-    <dependency>
-        <groupId>it.chengdazhi.styleimageview</groupId>
-        <artifactId>styleimageview</artifactId>
-        <version>1.0.4</version>
-        <type>pom</type>
-    </dependency>
-
 ## Usage
 ```java
 mGuide = new GuideBuilder(MainActivity.this)
