@@ -29,7 +29,7 @@ mGuide.setOnClickListener(new HighlightGuideInterface.OnClickListener() {
 });
 mGuide.show(MainActivity.this);
 ```
-
+method | desc
  --- | ---
 isInterceptClick | is to intercept click event or not
 isClickDismiss | is to click to dismiss or not
@@ -39,6 +39,9 @@ addItem | add item
 next | change to next anchor view
 show | show the view
 hide | hide the view
+
+## Thanks
+[https://github.com/hongyangAndroid/Highlight](https://github.com/hongyangAndroid/Highlight)
 
 License
 =======
