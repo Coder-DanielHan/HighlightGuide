@@ -1,4 +1,4 @@
-package com.danielhan.highlightguide;
+package com.danielhan.highlightguide.sample;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

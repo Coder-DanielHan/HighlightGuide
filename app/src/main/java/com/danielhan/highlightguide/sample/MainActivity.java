@@ -1,10 +1,13 @@
-package com.danielhan.highlightguide;
+package com.danielhan.highlightguide.sample;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Toast;
 
+import com.danielhan.highlightguide.Guide;
+import com.danielhan.highlightguide.GuideBuilder;
+import com.danielhan.highlightguide.Item;
 import com.danielhan.highlightguide.interfaces.HighlightGuideInterface;
 import com.danielhan.highlightguide.shape.CircleHighlightShape;
 import com.danielhan.highlightguide.shape.RectHighlightShape;

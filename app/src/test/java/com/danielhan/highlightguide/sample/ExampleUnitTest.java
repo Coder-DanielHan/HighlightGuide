@@ -1,4 +1,4 @@
-package com.danielhan.highlightguide;
+package com.danielhan.highlightguide.sample;
 
 import org.junit.Test;
 
