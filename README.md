@@ -88,6 +88,9 @@ next | change to next anchor view
 show | show the view
 hide | hide the view
 
+## Sample APK
+![Sample](apk/sample.apk)
+
 ## Thanks
 [https://github.com/hongyangAndroid/Highlight](https://github.com/hongyangAndroid/Highlight)
 
